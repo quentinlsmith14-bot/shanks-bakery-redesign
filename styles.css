@@ -1,0 +1,212 @@
+* {
+    color: #3A241D;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html, body {
+    background-color: #F9F2EA;
+}
+
+/* ── HEADER ── */
+header {
+    padding: 16px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: transparent;
+}
+
+.mainlogo { width: 180px; }
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+#order-online {
+    background-color: #E9B8B0;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+/* ── CAKE IMAGE ── */
+.cake-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: 0;
+}
+
+/* ── HERO ── */
+.hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.hero-text {
+    padding-left: 60px;
+    width: 100%;
+    z-index: 1;
+    margin-top: -300px;
+    margin-left: 400px;
+    transform: scale(1.5);
+}
+
+.hero-text h1 {
+    font-size: 52px;
+    font-weight: 800;
+    line-height: 1.1;
+}
+
+.sweet-spot {
+    font-family: 'Dancing Script', cursive;
+    color: #E9B8B0;
+    font-size: 52px;
+    font-weight: 700;
+    margin-top: 4px;
+}
+
+.hero-text p {
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+.hero-buttons {
+    margin-top: 28px;
+    display: flex;
+    gap: 16px;
+}
+
+.button-one {
+    background-color: #E9B8B0;
+    padding: 12px 24px;
+    border-radius: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.button-two {
+    background-color: transparent;
+    padding: 12px 24px;
+    border-radius: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    border: 2px solid #E9B8B0;
+}
+
+/* ── COMMUNITY ── */
+.community {
+    position: relative;
+    width: 100%;
+    margin-top: -200px;
+    overflow: hidden;
+    margin-top: -315px;
+}
+
+.community-img {
+    width: 100%;
+    display: block;
+}
+
+.community-text {
+    position: absolute;
+    top: 38%;
+    left: 5%;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 400px;
+}
+
+.community-text h2 {
+    font-size: 32px;
+    font-weight: 700;
+    top: 55%;
+}
+
+.community-text p {
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.community-button {
+    background-color: transparent;
+    padding: 10px 22px;
+    border-radius: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    border: 2px solid #E9B8B0;
+    align-self: flex-start;
+}
+
+/* ── MADE FRESH ── */
+.made-fresh {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin-top: -165px;
+}
+
+.made-fresh-img {
+    width: 100%;
+    display: block;
+}
+
+.made-fresh-content {
+    position: absolute;
+    top: 55%;
+    left: 25%;
+    right: 5%;
+    display: flex;
+    gap: 40px;
+    z-index: 1;
+}
+
+.menu-item {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+
+.menu-item h6 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.menu-item p {
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.learn-more {
+    background-color: transparent;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 12px;
+    cursor: pointer;
+    border: 2px solid #E9B8B0;
+    align-self: center;
+}
